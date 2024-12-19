@@ -12,7 +12,13 @@
             border-radius: 10px;
             outline: 1px solid rgba(225, 225, 225, 0.891);
         }
-        div > img {
+        div > a{
+            width: 294px;
+            height: auto;
+            margin: 8px;
+            border-radius: 10px;
+        }
+        div > a > img {
             width: 294px;
             height: auto;
             margin: 8px;
@@ -23,7 +29,7 @@
             font-weight: 500;
             border: 1px solid rgba(225, 225, 225, 0.891);
             border-radius: 100px;
-            padding-top: 2px;
+            padding-top: 2x;
             padding-bottom: 2px;
             padding-left: 10px;
             padding-right: 10px;
@@ -49,22 +55,23 @@
             left: 14px;
             white-space: pre;
         }
-        div > a {
+        .link {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             position: relative;
             bottom: 10px;
             font-weight: 700;
             left: 85px;
             text-decoration: none;
+            border: 1px solid rgb(204, 204, 204);
             border-radius: 100px;
             padding-top: 10px;
             padding-bottom: 10px;
             padding-left: 25px;
             padding-right: 25px;
             color: rgb(62, 131, 242);
-            background-color: rgb(55 92 193 / 20%);
+            background-color: rgb(55 92 193 / 27%);
         }
-        a:hover {
+        .link:hover {
             color: black;
             background-color: rgb(204, 204, 204);
         }
@@ -72,7 +79,7 @@
 </head>
 <body>
     <div class="home">
-        <img src="https://i0.wp.com/englishandbusiness.com/wp-content/uploads/2022/03/shop-5.jpg?fit=1200%2C1200&ssl=1" alt="card.png">
+        <a href="https://i0.wp.com/englishandbusiness.com/wp-content/uploads/2022/03/shop-5.jpg?fit=1200%2C1200&ssl=1" ><img src="https://i0.wp.com/englishandbusiness.com/wp-content/uploads/2022/03/shop-5.jpg?fit=1200%2C1200&ssl=1" alt="card.png"></a>
         <span class="Nature">Nature</span>
         <span class="Lake">Lake</span>
         <h2>Lago di Braies</h2>
@@ -80,7 +87,7 @@
 consectetur adipiscing elit. Consectetur 
 sodales morbi dignissim sed diam
 pharetra vitae ipsum odio.</p>
-        <a href="#home">Read More</a>
+        <a class="link" href="#home">Read More</a>
     </div>
 </body>
 </html>
